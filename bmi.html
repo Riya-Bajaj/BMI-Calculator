@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+    <div class="container">
+        <h3><b>B</b>ody <b>M</b>ass <b>I</b>ndex Calculator</h3>
+        
+        <p>This is a javascript app to calculate your BMI. Enter the height and the weight to get your body mass index.</p>
+        <div class="section">
+            <input type="text" class="text-input" id="age" placeholder="Enter age"/><p class="text">Age</p>
+        </div>
+        <div class="flex">
+            <input type="text" class="text-input" id="height" placeholder="Enter height"><p class="text">Height (m)</p>
+            <input type="text" class="text-input" id="weight" placeholder="Enter weight"><p class="text">Weight (kg)</p>
+        </div>
+        <button class="btn" onclick="bmi()">Calculate your BMI</button>
+        <h1 id="result"> </h1>
+    </div>
+
+    <script src="bmi.js"></script>
+</body>
+</html>
+
+
+
